@@ -7,7 +7,7 @@ IS (u|U|I|L)*
  
 %{
      #include <stdio.h>
-     #include "symbols.h"
+     #include "c.tab.h"
     void count();
 
 %}

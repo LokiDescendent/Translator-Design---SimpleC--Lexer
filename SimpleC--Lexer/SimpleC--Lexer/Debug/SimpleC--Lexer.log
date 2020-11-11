@@ -1,2 +1,15 @@
-﻿  SimpleC--Lexer.c
+﻿C.y : warning : 156 shift/reduce conflicts [-Wconflicts-sr]
+  C.y: note: rerun with option '-Wcounterexamples' to generate conflict counterexamples
+  c.tab.c
+C.y(164,5): warning C4013: 'exit' undefined; assuming extern returning int
+  lex.yy.c
+C.lex(16,9): warning C4013: 'comment' undefined; assuming extern returning int
+C.lex(30,29): warning C4013: 'check_type' undefined; assuming extern returning int
+lex.yy.c(1646,46): warning C4013: 'isatty' undefined; assuming extern returning int
+C.lex(78,17): warning C4101: 'c1': unreferenced local variable
+C.lex(78,14): warning C4101: 'c': unreferenced local variable
+  SimpleC--Lexer.c
+  Generating Code...
+C:\Users\Andrei\source\repos\SimpleC--Lexer\SimpleC--Lexer\C.lex(79): warning C4716: 'comment': must return a value
+C:\Users\Andrei\source\repos\SimpleC--Lexer\SimpleC--Lexer\C.y(165): warning C4716: 'yyerror': must return a value
   SimpleC--Lexer.vcxproj -> C:\Users\Andrei\source\repos\SimpleC--Lexer\Debug\SimpleC--Lexer.exe
